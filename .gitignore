@@ -1,0 +1,61 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+.env/
+
+# Python 动态和临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# 安装/打包相关
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.whl
+
+# 单元测试 / 覆盖率
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 临时/交换文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 环境变量
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
